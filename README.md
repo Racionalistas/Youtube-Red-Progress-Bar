@@ -2,6 +2,7 @@
 
 ## Change pink progress bar to original red!
 
+
 Yeah, pink progress bar is disgusting. 
 ![image](https://github.com/user-attachments/assets/4ad9dc9a-2709-4747-b272-1e8963b55d54)
 
