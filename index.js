@@ -1,1 +1,1 @@
-document.querySelector('.ytp-play-progress').style.background = '#f03'
+document.querySelectorAll('.ytp-play-progress').forEach((elem) => elem.style.background = '#f03');
