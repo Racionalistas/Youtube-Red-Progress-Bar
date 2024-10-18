@@ -10,6 +10,6 @@ Yeah, pink progress bar is disgusting.
 1. **Preparation**: 
     - Install extension https://chromewebstore.google.com/detail/scripty-javascript-inject/milkbiaeapddfnpenedfgbfdacpbcbam 
 2. **Installation**:
-    - Install script [https://scripty.abhisheksatre.com/#/share/script_1727627236496](https://scripty.abhisheksatre.com/#/share/script_1729262868233)
+    - Install script [https://scripty.abhisheksatre.com/#/share/script_1729263623505](https://scripty.abhisheksatre.com/#/share/script_1729263623505)
 3. **Usage**:
     - Just enjoy videos like before!!!
