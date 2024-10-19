@@ -1,18 +1,11 @@
 let iterationsToUpd = 0;
 
 const checkElements = setInterval(() => {
+    iterationsToUpd++;
+
     const elements = document.querySelectorAll('.ytp-play-progress');
     const playbackElm = document.querySelectorAll('.ytd-thumbnail-overlay-resume-playback-renderer');
     const progressBarElm = document.querySelectorAll('.yt-page-navigation-progress');
-
-    if (elements.length < 2 && iterationsToUpd < 3) {
-        iterationsToUpd++;
-        return;
-    }
-
-    elements.forEach((elem) => {
-        elem.style.background = '#f03';
-    });
 
     playbackElm.forEach((elem) => {
         elem.style.background = '#f03';
@@ -22,5 +15,11 @@ const checkElements = setInterval(() => {
         elem.style.background = '#f03';
     });
 
-    clearInterval(checkElements);
-}, 250)
+    elements.forEach((elem) => {
+        elem.style.background = '#f03';
+    });
+
+    if (iterationsToUpd >= 10) {
+        clearInterval(checkElements)
+    }
+}, 400)
