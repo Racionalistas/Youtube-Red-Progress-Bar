@@ -1,7 +1,7 @@
 let iterationsToUpd = 0;
 
 const checkElements = setInterval(() => {
-    iterationsToUpd++;
+    iterationsToUpd += 1;
 
     const elements = document.querySelectorAll('.ytp-play-progress');
     const playbackElm = document.querySelectorAll('.ytd-thumbnail-overlay-resume-playback-renderer');
